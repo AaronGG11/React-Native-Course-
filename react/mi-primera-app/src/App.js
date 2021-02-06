@@ -12,7 +12,7 @@ function App() {
   };
 
   const saludarFn = (nombre, edad) => {
-    alert(`Hola ${nombre}, tienes ${edad} años.`);
+    alert(`Hola ${nombre}, tienes ${edad} años.`); { /* template string*/}
   };
 
   return (

@@ -3,12 +3,12 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const [stateCar, setStateCar] = useState(false);
+  const [stateCar, setStateCar] = useState(false); /*El false es el valor por defecto */
   const [contar, setContar] = useState(0);
 
   const OnOff = () => {
-    //setStateCar(!stateCar);
-    setStateCar((prevValue) => !prevValue);
+    setStateCar(!stateCar);
+    //setStateCar((prevValue) => !prevValue);
     setContar(contar + 1);
   };
 
